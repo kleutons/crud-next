@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
 const url = process.env.API_URL;
-const key = process.env.API_KEY;
 
 // Unique Solo ID
 export const GET = async (request, {params}) => {
